@@ -1,0 +1,6 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px;
+    background-image: url(../../img/bg/bg1.jpg);
+    @include bg-align;
+}

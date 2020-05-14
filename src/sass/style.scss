@@ -1,7 +1,8 @@
 @import "global/variables";
+@import "global/mixins";
 
 * {
-    font-family: 'Museo Sans', sans-serif;
+    font-family: "Museo Sans", sans-serif;
 }
 
 a {
@@ -16,3 +17,6 @@ img {
     max-width: 950px;
     margin: 0 auto;
 }
+@import "components/promo.scss";
+@import "components/header.scss";
+@import "components/button.scss";
